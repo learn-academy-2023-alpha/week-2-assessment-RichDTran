@@ -27,6 +27,10 @@ Your answer: .map goes through each value in a array from a function and does no
 
 Researched answer: .map is a collections of key value pairs. It does not contain any keys by default. it only contains what is explicitly put into it. It can be any value like functions objecs or any primitive. It iterates in the order of insertion.
 
+//** UPDATE : 
+map "touches each value in array" and produces that new value in a array. Such as % 2===0
+in each number in a array. If the remainder is 0 it means that it is even if there is remainder it is odd
+
 3. What is the difference between map and filter?
 
 Your answer:map returns the information or log from the original array , where as filter returns a specific information based on what is being requested
@@ -34,6 +38,9 @@ Your answer:map returns the information or log from the original array , where a
 Researched answer:Filter creates an array filled with all elements pass a test implemented by the function and search for specifics through a function and logs those specifics back . 
 Such as finding fruits in a array of vegetables and fruits. 
 Map creates a new array going through EACH element in a function like dividing all numbers by 2 and logging those answers in its return.
+
+//**UPDATE : .map will touch each value in array and produce what is being called for(output) in a new array like multiplication or %
+.filter will create a new array and output a given specifically looking for in a parameter such as looking for vowels in a word.
 
 1. What is iteration?
 
@@ -55,6 +62,8 @@ Researched answer: A method, like a function, is a set of instructions that perf
 var str = 'CodeCADEMY';
 var str1 = str.toLowerCase();
 var str2 = str.toUpperCase();
+
+//** UPDATE :Functions are code that can be used again and again with inputted values where as methods can have functions INSIDE them but the methods CANNOT be changed.
 
 
 6. STRETCH: What is hoisting in JavaScript?

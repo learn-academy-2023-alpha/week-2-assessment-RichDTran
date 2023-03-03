@@ -133,6 +133,9 @@ const indexVowel = array => {
 //         })
 // }
 
+//*UPDATE*   .include() is where if this array or string includes this value it will be extracted into the new array and 
+//*UPDATE*   .length is going through and stopping at the END and not continuing non stop. After the past two days i have more understanding the use of .include()
+
     // ******** I have tried different ways to get this to work and only results of the second and
     // ******** third expected answers come up i cannot get the first value
     // ******** these are my errors
